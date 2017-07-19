@@ -14,7 +14,7 @@ Only junctions created in Windows may be used in other OSes.
 You will have to reinstall `symlink-to` package or invoke `npm run install`
 inside it's folder.
 
-If you know any other ways to quickly convert symlinks —, please, let me know.
+If you know any other ways to quickly convert symlinks of node_modules recursively —, please, let me know.
 
 ### Compatability Table
 
