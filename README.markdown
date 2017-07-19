@@ -22,7 +22,7 @@ inside its folder if you want to reuse node_modules on other OS.
 
 If you know any other ways to quickly convert symlinks of node_modules recursively —, please, let me know.
 
-### Compatability Table
+### Symlinks Compatability Table
 
 Type                      | Linux                  | Windows                 | WSL
 --------------------------|------------------------|-------------------------|------------------------
