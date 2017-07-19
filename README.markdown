@@ -2,7 +2,7 @@
 
 ```js
 import Bar from 'symlink-to/project-root/foo/bar';
-// OR
+// or
 const Bar = require('symlink-to/project-root/foo/bar');
 
 ```
