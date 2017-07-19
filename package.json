@@ -1,0 +1,22 @@
+{
+  "name": "symlink-to",
+  "version": "0.0.1",
+  "description": "Get to npm project root folder via a symlink created on install.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://foo.ru/bar"
+  },
+  "keywords": [
+    "symlink",
+    "project",
+    "root"
+  ],
+  "author": "Ilya Ig. Petrov <ilyaigpetrov@gmail.com> (https://git.io/ilyaigpetrov)",
+  "license": "GPL-3.0"
+}
