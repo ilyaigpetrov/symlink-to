@@ -12,7 +12,7 @@ const Bar = require('symlink-to/project-root/foo/bar');
 Symlinks generated on Windows won't be compatible with Linux and vice versa.
 Only junctions created in Windows are portable.
 You will have to reinstall `symlink-to` package or invoke `npm run install`
-inside it's folder.
+inside its folder.
 
 If you know any other ways to quickly convert symlinks of node_modules recursively —, please, let me know.
 
