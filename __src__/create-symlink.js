@@ -4,8 +4,8 @@ const fs = require('fs');
 const path = require('path');
 const child_process = require('child_process');
 
-const linkPath = path.join('.', 'node_modules', '_project-soft');
-const targetPath = '..';
+const linkPath = path.join('.', 'project-root');
+const targetPath = path.join('..', '..'); // Up to node_modules and higher.
 
 fs.unlink(linkPath,
   () =>
