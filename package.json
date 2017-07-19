@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://foo.ru/bar"
+    "url": "https://github.com/ilyaigpetrov/symlink-to"
   },
   "keywords": [
     "symlink",
