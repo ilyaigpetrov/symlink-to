@@ -18,12 +18,12 @@ If you know any other ways to quickly covert symlinks —, please, let me know.
 
 ### Compatability Table
 
-Type            | Linux                  | Windows                 | WSL
-----------------|------------------------|-------------------------|------------------------
-mklink /J       | Works as absolute link | Works as absolute link  | Works as absolute link
-mklink /D       | no                     | yes                     | no
-mklink /H       | -                      | Can't link to directory | -
-Linux symlink   | yes                    | no                      | no
-WSL symlink     | no                     | no                      | yes
+Type                      | Linux                  | Windows                 | WSL
+--------------------------|------------------------|-------------------------|------------------------
+mklink /J (junction)      | Works as absolute link | Works as absolute link  | Works as absolute link
+mklink /D (dir, symbolic) | no                     | yes                     | no
+mklink /H (hard)          | -                      | Can't link to directory | -
+Linux symlink             | yes                    | no                      | no
+WSL symlink               | no                     | no                      | yes
 
 WSL is Windows Subsystem for Linux (bash for Windows).
