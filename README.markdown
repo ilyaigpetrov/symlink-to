@@ -7,7 +7,13 @@ const Bar = require('symlink-to/project-root/foo/bar');
 
 ```
 
-## Compatability
+## I Don't Know
+
+1. If you import the same module by different paths will webpack optimize it?
+2. May NPM put this package to a folder different than `./node_modules/symlink-to` (for shared module optimization, e.g.)
+and thus break symlinks to `./../..`?
+
+## `node_modules` Compatability
 
 Symlinks generated on Windows won't be compatible with Linux and vice versa.
 Only junctions created in Windows are portable.
