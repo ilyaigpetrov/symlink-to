@@ -7,7 +7,7 @@ const child_process = require('child_process');
 const linkPath = path.join('.', 'project-root');
 const targetPath = path.join('..', '..'); // Up to node_modules and higher.
 
-fs.unlink(linkPath,
+fs.unlink(linkPath, // Remove file if exists already, may be dangerous.
   () =>
     fs.symlink(targetPath, linkPath, 'dir', (err) => {
 
