@@ -1,8 +1,3 @@
-# DON'T USE
-
-I plan to change module name to 'symlink-to-project-root'.
-Don't use this module.
-
 ## Symlink To NPM Project Root
 
 ```js
