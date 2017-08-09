@@ -1,6 +1,6 @@
 {
   "name": "symlink-to",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Get to npm project root folder via a symlink created on install.",
   "main": "index.js",
   "dependencies": {},
